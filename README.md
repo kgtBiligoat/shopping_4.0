@@ -12,20 +12,21 @@
 		4.购物车中增删操作
     
 		5.登出
-## Build Setup
+## 启动方式
 
 ``` bash
-# install dependencies
+# 安装前端项目依赖
 npm install
 
-# serve with hot reload at localhost:8080
+#安装后端项目依赖
+cd server
+npm install
+
+#在shopping_4.0下启动前端服务器
 npm run dev
 
-# build for production with minification
-npm run build
+#在shopping_4.0/server/bin下启动后端服务器
+node www
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 网页中输入localhost:8080
+服务启动
